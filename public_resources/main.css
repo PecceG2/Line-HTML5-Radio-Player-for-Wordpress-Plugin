@@ -1,0 +1,187 @@
+#myVideo{
+    position: fixed;
+    right: 0;
+    top: -200px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+    filter: blur(3px);
+}
+
+
+.main-frame{
+    border-color: rgba(250, 34, 91, 0.5);
+    background-color: rgba(250, 34, 91, 0.5);
+    color: #FFF;
+
+
+    padding: 0;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 40%);
+    overflow: hidden;
+    margin: 0;
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.main-frame .main-button{
+    float:left;
+    margin: 0 auto;
+    width: 10%;
+    height: 100%;
+    text-align:center;
+    position: relative;
+}
+
+.main-frame .main-button .icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+}
+
+.main-frame .main-button .icon.icon-play:before{
+    font-family: "FontAwesome";
+    content: "\f144";
+    cursor: pointer;
+    transition: all 2.15s linear;
+    font-size:60px;
+}
+
+.main-frame .main-button .icon.icon-pause:before{
+    font-family: "FontAwesome";
+    content: "\f28b";
+    cursor: pointer;
+    transition: all 2.15s linear;
+    font-size:60px;
+}
+
+.main-frame .main-image{
+    background-color:red;
+    width:70px;
+    height:70px;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/koanalbum.png");
+}
+
+.main-frame .main-container{
+    float:left;
+    width:70%;
+    height:100%;
+}
+
+.main-frame .second-container{
+    float:left;
+    width:20%;
+    height:100%;
+}
+
+.main-frame .second-container .time-counter{
+    height:50%;
+    width:60%;
+    display:inline-block;
+}
+.main-frame .second-container .time-counter h5, i{
+    margin: 5% 0 0 10px;
+    float:left;
+}
+
+.main-frame .second-container .time-counter .in-live{
+    color: #e32f40;
+    font-size:20px;
+    font-family: 'KoHo', sans-serif;
+    height: 100%;
+}
+
+.main-frame .second-container .time-counter .volume{
+    font-size:20px;
+    font-family: 'KoHo', sans-serif;
+    height: 100%;
+}
+
+.main-frame .second-container .time-counter .volume i{
+    margin-top: 0;
+    margin-left: 11px;
+    font-size: 30px;
+}
+
+.main-frame .second-container .time-counter .volume h5{
+    margin: 2% 0 0 10px;
+}
+
+
+
+.main-frame .second-container .img-album{
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/koanalbum.png");
+    float: right;
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    cursor: pointer;
+}
+
+.main-frame .main-container .infobox{
+    height: 100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.main-frame .main-container .infobox h2{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main-frame .main-container .infobox h4{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.main-frame .volume-overlay{
+    border: 2px solid #FFF;
+    z-index: 999;
+    position: relative;
+    top: -3px;
+    left: 10%;
+    cursor: grab;
+    height: calc(100% + 6px);
+    width: 80%;
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.main-frame .volume-color-print{
+    z-index: -999;
+    position: absolute;
+    background-color: rgba(250, 34, 91, 0.2);
+    top: 0;
+    left: 0;
+    height: calc(100% - 6px);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid rgb(255 255 255 / 58%);
+}
+
+.main-frame .player, .main-frame .configurator{
+    display: none;
+}
