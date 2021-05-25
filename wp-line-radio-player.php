@@ -3,7 +3,7 @@
  * Plugin Name: Line Radio Player
  * Plugin URI: https://github.com/PecceG2/Line-HTML5-Radio-Player-for-Wordpress-Plugin
  * Description: Line Radio Player is a WordPress plugin for HTML5 audio streaming and video player.
- * Version: 0.6
+ * Version: 1.0
  * Author: Giuliano Peccetto
  * Author URI: https://www.pecceg2.com/
  */
