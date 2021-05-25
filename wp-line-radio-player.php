@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Lune Radio Player
- * Plugin URI: https://github.com/PecceG2/Lune-HTML5-Radio-Player-for-Wordpress-Plugin
- * Description: Lune Radio Player is a WordPress plugin for HTML5 audio streaming and video player.
- * Version: 0.5
+ * Plugin Name: Line Radio Player
+ * Plugin URI: https://github.com/PecceG2/Line-HTML5-Radio-Player-for-Wordpress-Plugin
+ * Description: Line Radio Player is a WordPress plugin for HTML5 audio streaming and video player.
+ * Version: 0.6
  * Author: Giuliano Peccetto
  * Author URI: https://www.pecceg2.com/
  */
