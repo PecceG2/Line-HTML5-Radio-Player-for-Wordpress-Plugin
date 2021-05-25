@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="font-awesome.min.css">
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="{{PLUGINDIR}}/font-awesome.min.css">
+<link rel="stylesheet" href="{{PLUGINDIR}}/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=KoHo&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 
@@ -37,10 +37,10 @@
             <div class="volume-color-print"></div>
         </div>
         <div class="player"></div>
-        <div class="configurator" data-title="RADIO MEGA 99.9" data-subtitle="PROGRAMA 01 - RADIO MEGA" data-imgicon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/koanalbum.png" data-streamtype="audio" data-streamformat="shoutcast2" data-streamurl="https://srv591.grupomultimedios.com.ar:9902/radio/8040/radio.mp3?1621958643" data-volume="80" data-autoplay="false" data-backgroundcolor="#FA225B" data-fontcolor="#FFF"></div>
+        <div class="configurator" data-title="{{TITLE}}" data-subtitle="{{SUBTITLE}}" data-imgicon="{{IMGICON}}" data-streamtype="{{STREAMTYPE}}" data-streamformat="{{STREAMFORMAT}}" data-streamurl="{{STREAMURL}}" data-volume="{{VOLUME}}" data-autoplay="{{AUTOPLAY}}" data-backgroundcolor="{{BACKGROUNDCOLOR}}" data-fontcolor="{{FONTCOLOR}}"></div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script src="main.js"></script>
+<script src="{{PLUGINDIR}}/main.js"></script>
